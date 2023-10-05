@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root {
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Darkblue: hsl(223, 47%, 23%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --red: 'Red Hat Display';
+    --bold: 'Red Hat Display', sans-serif;
+}
+
+
+
+body,html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+body{
+    background-color: var(--Paleblue);
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    margin: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+    border-radius: 10px;
+    width: 390px;
+    height: 600px;
+}
+
+.title h2{
+    font-size: 24px;
+    color: var(--Darkblue);
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+.sub-title{
+    text-align: center;
+    width: 350px;
+    margin-top: 0;
+    color: var(--Desaturatedblue);
+}
+ 
+
+img{
+    border-radius: 10px 10px 0 0 ;
+    width: 390px;
+}
+
+.billing-plan{
+    width: 320px;
+    background-color: var(--Verypaleblue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    height: 75px;
+    margin-top: 10px;
+    margin-left:15px;
+
+}
+
+.billing-plan a{
+    text-decoration: underline;
+    color: var(--Brightblue);
+    margin: 0 15px;
+}
+
+
+.symbol-img-left{
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    width: 1px;
+}
+
+#annual-plan{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+#annual-plan h5{
+    color: var(--Darkblue);
+    margin: auto;
+}
+
+#annual-plan p{
+    color: var(--Desaturatedblue);
+}
+
+.proceed-to-payment{
+    width: 320px;
+    height: 36px;
+    color: white;
+    border: none;
+    background-color: var(--Brightblue);
+    margin: 20px 10px 20px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -10px 8px 8px 8px var(--Paleblue);
+
+}
+
+
+.proceed-to-payment:hover{
+    background-color: hsl(245, 82%, 35%);
+}
+
+
+
+.cancel-order{
+    color: var(--Darkblue);
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+
+
+
+
+
+
+
